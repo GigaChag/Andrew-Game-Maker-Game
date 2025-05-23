@@ -1,0 +1,7 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"energy_bar_object","order":1,"path":"objects/energy_bar_object/energy_bar_object.yy",},
+    {"name":"energy_bar_sprite","order":1,"path":"sprites/energy_bar_sprite/energy_bar_sprite.yy",},
+  ],
+}
