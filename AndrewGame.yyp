@@ -35,12 +35,16 @@
   "name":"AndrewGame",
   "resources":[
     {"id":{"name":"energy_bar_object","path":"objects/energy_bar_object/energy_bar_object.yy",},},
+    {"id":{"name":"game_controller","path":"objects/game_controller/game_controller.yy",},},
+    {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"oOpp","path":"objects/oOpp/oOpp.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},},
+    {"id":{"name":"MenuRoom","path":"rooms/MenuRoom/MenuRoom.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"energy_bar_sprite","path":"sprites/energy_bar_sprite/energy_bar_sprite.yy",},},
     {"id":{"name":"GamerOver_sprite","path":"sprites/GamerOver_sprite/GamerOver_sprite.yy",},},
+    {"id":{"name":"sprite_bullet","path":"sprites/sprite_bullet/sprite_bullet.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
@@ -50,6 +54,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},},
+    {"roomId":{"name":"MenuRoom","path":"rooms/MenuRoom/MenuRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,5 +1,5 @@
 
-// Only calculate energy if game is not over.
+// Only calculate energy if game is not over and in round
 if game_controller.is_game_over = false then
 {
   if game_controller.in_round = true then
@@ -13,4 +13,5 @@ if game_controller.is_game_over = false then
     visible = false
   }
 }
+
 

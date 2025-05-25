@@ -2,7 +2,7 @@
 
 var original_velo_y = velo_y
 var original_velo_x = velo_x
-if energy != 0 then
+if energy > 0 then
 {
 	var movement_y_key_pressed = false
 	var movement_x_key_pressed = false

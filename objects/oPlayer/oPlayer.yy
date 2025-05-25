@@ -3,6 +3,7 @@
   "%Name":"oPlayer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oPlayer",
@@ -30,6 +31,7 @@
     {"$GMObjectProperty":"v1","%Name":"velo_y","filters":[],"listItems":[],"multiselect":false,"name":"velo_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"max_speed","filters":[],"listItems":[],"multiselect":false,"name":"max_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"energy","filters":[],"listItems":[],"multiselect":false,"name":"energy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1000","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"energy_per_shot","filters":[],"listItems":[],"multiselect":false,"name":"energy_per_shot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"40","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

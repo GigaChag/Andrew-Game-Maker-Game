@@ -1,7 +1,13 @@
-visible = true
+if (hp <= 0) instance_destroy();
 
-x = x + lengthdir_x(1.5, point_direction(x, y, oPlayer.x, oPlayer.y))
-y = y + lengthdir_y(1.5, point_direction(x, y, oPlayer.x, oPlayer.y))
+if abs(velo_x) < top_speed_due_to_thrust then
+{
+	velo_x = lengthdir_x(1.5, point_direction(x, y, oPlayer.x, oPlayer.y))
+}
+if abs(velo_y) < top_speed_due_to_thrust then
+{
+	velo_y = lengthdir_y(1.5, point_direction(x, y, oPlayer.x, oPlayer.y))
+}
 
 
 // gravity time!
@@ -12,4 +18,17 @@ var strength = 0.1
 
 velo_x +=lengthdir_x(strength,bearing_to_center); //0.5 is the speed
 velo_y +=lengthdir_y(strength,bearing_to_center);
+
+// apply velocity to position
+
+if (!place_meeting(x + velo_x, y, oOpp)) {
+    x = x + velo_x
+} else {
+	velo_x = velo_x * -1
+}
+if (!place_meeting(x, y + velo_y, oOpp)) {
+	y = y + velo_y
+} else {
+	velo_y = velo_y *-1
+}
 
