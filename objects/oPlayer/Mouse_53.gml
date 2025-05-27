@@ -1,7 +1,10 @@
-with (instance_create_layer(x,y, layer, oBullet))
+if energy >= energy_per_shot then
 {
-	direction = point_direction(oPlayer.x,oPlayer.y, mouse_x, mouse_y)
-	speed = 5;
-}
+	with (instance_create_layer(x,y, layer, oBullet))
+	{
+		direction = point_direction(oPlayer.x,oPlayer.y, mouse_x, mouse_y)
+		speed = 5;
+	}
 
-energy = energy - energy_per_shot
+	energy = energy - energy_per_shot
+}

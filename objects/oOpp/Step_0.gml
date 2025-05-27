@@ -32,3 +32,4 @@ if (!place_meeting(x, y + velo_y, oOpp)) {
 	velo_y = velo_y *-1
 }
 
+image_index = 0
