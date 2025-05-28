@@ -7,4 +7,6 @@ if energy >= energy_per_shot then
 	}
 
 	energy = energy - energy_per_shot
+} else {
+	energy_bar_object.image_index = 1
 }

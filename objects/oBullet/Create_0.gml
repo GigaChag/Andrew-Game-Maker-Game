@@ -1,2 +1,2 @@
-var lifespan = 600
+var lifespan = 240
 alarm[0] = lifespan
