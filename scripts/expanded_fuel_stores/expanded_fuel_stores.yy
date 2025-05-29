@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"expanded_fuel_stores",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"expanded_fuel_stores",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
