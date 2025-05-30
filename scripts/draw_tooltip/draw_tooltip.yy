@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"getBoon",
+  "%Name":"draw_tooltip",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"getBoon",
+  "name":"draw_tooltip",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

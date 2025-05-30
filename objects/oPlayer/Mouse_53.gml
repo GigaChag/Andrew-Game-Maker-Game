@@ -4,7 +4,7 @@ if on_cooldown = false {
 		with (instance_create_layer(x,y, layer, oBullet))
 		{
 			direction = point_direction(oPlayer.x,oPlayer.y, mouse_x, mouse_y)
-			speed = shot_speed;
+			speed = oPlayer.shot_speed
 		}
 
 		energy = energy - energy_per_shot

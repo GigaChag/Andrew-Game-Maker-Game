@@ -1,10 +1,20 @@
 // intialize
 
-heavy_hitter_boon_description = "Increase shot damage by {0}%, but decrease shot velocity by {1}%"
+randomize()
+
+heavy_hitter_boon_description = "Increase shot damage, but decreases shot velocity"
 
 nothing_boon_description = "does nothing"
 
-expanded_fuel_stores_description = "Increases energy capacity by {0}%"
+expanded_fuel_stores_description = "Increases energy capacity"
+
+explosive_bullets = " you should "
+
+shield = "shield that blocsk shit"
+
+shield_knockbacky = "eda"
+
+shield_get_big = "e"
 
 boon_list = ds_list_create()
 
