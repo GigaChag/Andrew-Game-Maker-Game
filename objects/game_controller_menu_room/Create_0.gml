@@ -22,10 +22,11 @@ for(i = 0; i < 3; i++) {
 		
 	var data_struct_for_boon_button = 
 	{	
-		title : boon_title
+		title : ordered_boon_array[i][0],
 		boon_tier : tier,
-		description : string(ordered_boon_array[i][0],),
-		select_function : ordered_boon_array[i][1]
+		description : string(ordered_boon_array[i][1],),
+		select_function : ordered_boon_array[i][2],
+		sprite_list : ordered_boon_array[i][3]
 	}
 		
 	// show_debug_message("About to creat hexagonal boon")

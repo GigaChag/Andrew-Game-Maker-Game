@@ -33,3 +33,6 @@ if (!place_meeting(x, y + velo_y, oOpp)) {
 }
 
 image_index = 0
+
+
+

@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite2",
-    "path":"sprites/Sprite2/Sprite2.yy",
+    "name":"oOpp_sprite",
+    "path":"sprites/oOpp_sprite/oOpp_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

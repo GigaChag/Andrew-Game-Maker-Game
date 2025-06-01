@@ -4,7 +4,8 @@ function heavy_hitter(tier){
 	
 	var shot_speed_tiers = [0.85, 0.7, 0.5]
 	
+	oPlayer.shot_speed = oPlayer.shot_speed * damage_tiers[tier]
+	oPlayer.bullet_damage = oPlayer.bullet_damage * shot_speed_tiers[tier]
 	
-	oPlayer.shot_speed = oPlayer * damage_tiers[tier]
-	oBullet.damage = oBullet.damage * shot_speed_tiers[tiers]
+	basic_boon_code()
 }
