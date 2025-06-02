@@ -31,6 +31,7 @@
     {"name":"resart_script","order":18,"path":"scripts/resart_script/resart_script.yy",},
     {"name":"round1","order":17,"path":"scripts/round1/round1.yy",},
     {"name":"round2","order":15,"path":"scripts/round2/round2.yy",},
+    {"name":"round3","order":20,"path":"scripts/round3/round3.yy",},
     {"name":"sleep","order":11,"path":"scripts/sleep/sleep.yy",},
     {"name":"big_lemon_sprite","order":19,"path":"sprites/big_lemon_sprite/big_lemon_sprite.yy",},
     {"name":"energy_bar_sprite","order":2,"path":"sprites/energy_bar_sprite/energy_bar_sprite.yy",},

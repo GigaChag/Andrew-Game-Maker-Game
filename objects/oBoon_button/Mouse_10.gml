@@ -1,9 +1,8 @@
 image_index = 1
 show_tool_tip = true
-
 var display_text = title
 
-if is_tiered == True {
+if is_tiered == true {
 	var roman_tier = ["I", "II", "III"]
 
 	display_text = string_concat(title, " ",  roman_tier[boon_tier])

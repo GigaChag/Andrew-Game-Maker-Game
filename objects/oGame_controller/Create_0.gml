@@ -88,7 +88,7 @@ shield_knockbacky = "eda"
 
 shield_get_big = "e"
 
-boon_list = ds_list_create()
-
-ds_list_add(boon_list,
-heavy_hitter_boon, nothing_boon_dict, expanded_fuel_stores_boon)
+global.boon_list = [
+heavy_hitter_boon,
+nothing_boon_dict, 
+expanded_fuel_stores_boon]
