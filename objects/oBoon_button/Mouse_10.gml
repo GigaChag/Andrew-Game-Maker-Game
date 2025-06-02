@@ -1,9 +1,13 @@
 image_index = 1
 show_tool_tip = true
 
-var roman_tier = ["I", "II", "III"]
+var display_text = title
 
-var display_text = string_concat(title, " ",  roman_tier[boon_tier])
+if is_tiered == True {
+	var roman_tier = ["I", "II", "III"]
+
+	display_text = string_concat(title, " ",  roman_tier[boon_tier])
+}
 
 oBoon_title_display.boon_description = description
 

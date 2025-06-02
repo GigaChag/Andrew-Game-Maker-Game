@@ -5,7 +5,7 @@ energy = 2000
 energy_per_shot = 40
 energy_consum_speed_multiplier = 1
 speed_multiplier = 1
-starting_energy = 2000
+starting_energy = 2500
 shot_cooldown = 30
 shot_speed  = 10
 
