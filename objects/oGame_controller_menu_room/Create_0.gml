@@ -1,5 +1,5 @@
 var copy_of_boon_list = ds_list_create()
-ds_list_copy(copy_of_boon_list, game_controller.boon_list)
+ds_list_copy(copy_of_boon_list, oGame_controller.boon_list)
 	
 ds_list_shuffle(copy_of_boon_list)
 	

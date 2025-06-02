@@ -6,15 +6,15 @@ function new_round(){
 	oPlayer.x = 683
 	oPlayer.y = 125
 	
-	energy_bar_object.visible = true
+	oEnergy_bar_object.visible = true
 	
 	var new_round_function = global.round_array[global.round]
 	
 	show_debug_message(new_round_function)
 	
-	game_controller.runfunction = new_round_function
+	oGame_controller.runfunction = new_round_function
 	
-	game_controller.in_round = true
+	oGame_controller.in_round = true
 	
 	room_goto(roundroom)
 }

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"GamerOver_sprite",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":147,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":269,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"aa17d17e-0aa0-4c75-af96-62ab8e810249","name":"aa17d17e-0aa0-4c75-af96-62ab8e810249","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1c862130-174e-4ff5-9ef3-27dd5bd77653","name":"1c862130-174e-4ff5-9ef3-27dd5bd77653","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":148,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"02308dc0-00e9-43a3-b0b7-cea7d25f4f58","blendMode":0,"displayName":"default","isLocked":false,"name":"02308dc0-00e9-43a3-b0b7-cea7d25f4f58","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0d72eb52-3648-43f6-9897-6e9babc8621c","blendMode":0,"displayName":"default","isLocked":false,"name":"0d72eb52-3648-43f6-9897-6e9babc8621c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"GamerOver_sprite",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aa17d17e-0aa0-4c75-af96-62ab8e810249","path":"sprites/GamerOver_sprite/GamerOver_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"473aea26-9d5a-4656-b7e5-f43bff010a0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c862130-174e-4ff5-9ef3-27dd5bd77653","path":"sprites/GamerOver_sprite/GamerOver_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"56affb7e-4edd-4f8f-841d-c82fa76c0257","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":270,
 }

@@ -1,6 +1,6 @@
 
 // Only calculate energy if game is not over and in round
-if room == roundroom {
+if room == roundroom && instance_exists(oPlayer){
 	visible = true
 	var energy_portion = (oPlayer.energy)/oPlayer.starting_energy
     image_xscale = energy_portion * 10

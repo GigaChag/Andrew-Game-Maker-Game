@@ -10,7 +10,7 @@ function finish_round(){
 	
 	oPlayer.energy = 0
 	
-	energy_bar_object.visible = false
+	oEnergy_bar_object.visible = false
 	
-	game_controller.ready_to_init_boon_buttons = true
+	oGame_controller.ready_to_init_boon_buttons = true
 }

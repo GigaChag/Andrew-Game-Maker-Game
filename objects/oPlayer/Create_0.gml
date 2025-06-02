@@ -9,5 +9,7 @@ starting_energy = 2000
 shot_cooldown = 30
 shot_speed  = 10
 
+step_functions = []
+
 image_xscale = 0.5
 image_yscale = 0.5

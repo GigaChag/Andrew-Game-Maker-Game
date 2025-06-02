@@ -23,7 +23,7 @@ function player_movement(){
 			energy -= energy_consum_speed_multiplier * 0.25
 		}
 	} else {
-		energy_bar_object.image_index = 1
+		oEnergy_bar_object.image_index = 1
 	}
 	// gravity
 	var bearing_to_center = point_direction(x,y, 682.5, 383.5)

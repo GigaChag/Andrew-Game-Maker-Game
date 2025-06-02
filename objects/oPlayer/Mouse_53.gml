@@ -14,7 +14,7 @@ if on_cooldown = false {
 
 		energy = energy - energy_per_shot
 	} else {
-		energy_bar_object.image_index = 1
+		oEnergy_bar_object.image_index = 1
 	}
 
 	alarm[0] = shot_cooldown
