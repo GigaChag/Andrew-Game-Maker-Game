@@ -8,3 +8,6 @@ speed_multiplier = 1
 starting_energy = 2000
 shot_cooldown = 30
 shot_speed  = 5
+
+image_xscale = 0.5
+image_yscale = 0.5

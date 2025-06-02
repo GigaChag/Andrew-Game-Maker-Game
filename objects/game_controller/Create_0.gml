@@ -1,10 +1,19 @@
 // intialize
 
-//rounds
-global.round = 1
+runfunction = "none"
 
-global.round_dict = {
-	round_2_lemons : 2}
+show_debug_message("Starting Game Controller Create Event initialization")
+
+frames_without_glorb = 0
+
+//rounds
+global.round = 0
+
+global.round_array = [
+round1,
+round2]
+
+if global.round = 0 {round1()}
 
 randomize()
 
@@ -19,17 +28,41 @@ global.c_bananan_green_yellow = make_colour_rgb(180, 197, 86);
 
 global.c_tanish = make_colour_rgb(225, 150, 90) 
 
-heavy_hitter_boon_description = "Increase shot damage, but decreases shot velocity"
-heavy_hitter_sprite_list = [
-oBoon_sprite_Heavy_Hitter_0, oBoon_sprite_Heavy_Hitter_1, oBoon_sprite_Heavy_Hitter_2]
+// The big boon initialization
 
-nothing_boon_description = "A fresh copy of Jack Shit"
-nothing_boon_sprite_list = [
-oBoon_sprite_Nothing_0, oBoon_sprite_Nothing_1, oBoon_sprite_Nothing_2]
+heavy_hitter_boon = {
+	title: "Heavy Hitter",
+	description : "Increase shot damage, but decreases shot velocity",
+	sprite_list : [
+		oBoon_sprite_Heavy_Hitter_0, oBoon_sprite_Heavy_Hitter_1, oBoon_sprite_Heavy_Hitter_2],
+	boon_function : heavy_hitter,
+	max_selections : 3  
+}
 
-expanded_fuel_stores_description = "Increases energy capacity"
-expanded_fuel_stores_sprite_list = [
-oBoon_sprite_Expanded_Fuel_Stores_0, oBoon_sprite_Expanded_Fuel_Stores_1, oBoon_sprite_Expanded_Fuel_Stores_2]
+nothing_boon_dict = {
+	title : "Nothing",
+	description : "A fresh copy of Jack Shit.. or is it?",
+	sprite_list : [
+		oBoon_sprite_Nothing_0, oBoon_sprite_Nothing_1, oBoon_sprite_Nothing_2],
+	boon_function : nothing_boon,
+	max_selections : 3
+}
+
+expanded_fuel_stores_boon = {
+	title : "Expanded Fuel Stores",
+	description : "Increases energy capacity",
+	sprite_list : [
+		oBoon_sprite_Expanded_Fuel_Stores_0, oBoon_sprite_Expanded_Fuel_Stores_1, oBoon_sprite_Expanded_Fuel_Stores_2],
+	boon_function : expanded_fuel_stores,
+	max_selections : 3
+}
+
+// Below here are the unfinished boons
+
+booster_ability = {
+	title : "Booster Ability",
+	description : "Press B to give yourself a boost in speed towards your cursor"
+}
 
 explosive_bullets = " you should "
 
@@ -42,7 +75,4 @@ shield_get_big = "e"
 boon_list = ds_list_create()
 
 ds_list_add(boon_list,
-["Heavy Hitter", heavy_hitter_boon_description, heavy_hitter, heavy_hitter_sprite_list],
-["Nothing", nothing_boon_description, nothing_boon, nothing_boon_sprite_list],
-["Expanded Fuel Stores", expanded_fuel_stores_description, expanded_fuel_stores, expanded_fuel_stores_sprite_list]
-)
+heavy_hitter_boon, nothing_boon_dict, expanded_fuel_stores_boon)

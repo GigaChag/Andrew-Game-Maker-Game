@@ -1,10 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"oLemon_mini_opp",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oLemon_mini_opp",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGlorb","path":"objects/oGlorb/oGlorb.yy",},"propertyId":{"name":"degree_per_frame","path":"objects/oGlorb/oGlorb.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
@@ -30,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"mini_lemon_sprite",
+    "path":"sprites/mini_lemon_sprite/mini_lemon_sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

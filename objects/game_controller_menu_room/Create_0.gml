@@ -1,7 +1,3 @@
-
-	
-show_debug_message("we made it to start of boon making town")
-	
 var copy_of_boon_list = ds_list_create()
 ds_list_copy(copy_of_boon_list, game_controller.boon_list)
 	

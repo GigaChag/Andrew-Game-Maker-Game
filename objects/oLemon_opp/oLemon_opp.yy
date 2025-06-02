@@ -6,14 +6,16 @@
   ],
   "managed":true,
   "name":"oLemon_opp",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGlorb","path":"objects/oGlorb/oGlorb.yy",},"propertyId":{"name":"degree_per_frame","path":"objects/oGlorb/oGlorb.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"oOpp",
-    "path":"objects/oOpp/oOpp.yy",
+    "name":"oGlorb",
+    "path":"objects/oGlorb/oGlorb.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"big_lemon_sprite",
+    "path":"sprites/big_lemon_sprite/big_lemon_sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

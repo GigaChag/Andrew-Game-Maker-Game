@@ -1,8 +1,13 @@
 if game_controller.in_round = true && game_controller.is_game_over = false {
-	if instance_number(oOpp) = 0 {
-		finish_round()
-		game_controller.in_round = false
-		// he likes to reference himself in third person
+	if instance_number(oGlorb) = 0 {
+		frames_without_glorb += 1
+		if frames_without_glorb >= 60 {
+			finish_round()
+			frames_without_glorb = 0
+			game_controller.in_round = false
+			// he likes to reference himself in third person
+		}
+		
 	}
 } 
 
@@ -14,3 +19,9 @@ if game_controller.is_game_over = true {
 }
 
 if game_controller.in_round = false {audio_pause_all()}
+
+if runfunction != "none" {
+	script_execute(runfunction)
+	runfunction = "none"
+	// a jank way for me to get around gamemakers room system and run code through an object in round room
+}
