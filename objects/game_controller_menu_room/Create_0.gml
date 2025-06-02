@@ -15,14 +15,14 @@ for(i = 0; i < 3; i++) {
 	var tier = irandom(2)
 		
 	var positions = [[341.5, 383.5], [683, 383.5], [1024.5, 383.5]]
-		
+	
 	var data_struct_for_boon_button = 
 	{	
-		title : ordered_boon_array[i][0],
+		title : ordered_boon_array[i].boon_title,
 		boon_tier : tier,
-		description : string(ordered_boon_array[i][1],),
-		select_function : ordered_boon_array[i][2],
-		sprite_list : ordered_boon_array[i][3]
+		description : ordered_boon_array[i].description,
+		select_function : ordered_boon_array[i].boon_function,
+		sprite_list : ordered_boon_array[i].sprite_array
 	}
 		
 	// show_debug_message("About to creat hexagonal boon")

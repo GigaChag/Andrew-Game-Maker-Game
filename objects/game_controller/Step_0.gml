@@ -13,9 +13,12 @@ if game_controller.in_round = true && game_controller.is_game_over = false {
 
 if game_controller.is_game_over = true {
 	game_controller.in_round = false
+	game_controller.is_game_over = false
 	oPlayer.visible = false
 	oPlayer.energy = 0
 	energy_bar_object.visible = false
+	show_debug_message("you died 2")
+	room_goto(GameOverRoom)
 }
 
 if game_controller.in_round = false {audio_pause_all()}
