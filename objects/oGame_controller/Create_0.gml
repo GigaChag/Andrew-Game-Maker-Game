@@ -46,7 +46,8 @@ heavy_hitter_boon = {
 		oBoon_sprite_Heavy_Hitter_0, oBoon_sprite_Heavy_Hitter_1, oBoon_sprite_Heavy_Hitter_2],
 	boon_function : heavy_hitter,
 	max_selections : 3,
-	tiered : true
+	tiered : true,
+	times_selected : 0
 }
 
 nothing_boon_dict = {
@@ -56,7 +57,8 @@ nothing_boon_dict = {
 		oBoon_sprite_Nothing_0, oBoon_sprite_Nothing_1, oBoon_sprite_Nothing_2],
 	boon_function : nothing_boon,
 	max_selections : 3,
-	tiered : false
+	tiered : false,
+	times_selected : 0
 }
 
 expanded_fuel_stores_boon = {
@@ -66,7 +68,8 @@ expanded_fuel_stores_boon = {
 		oBoon_sprite_Expanded_Fuel_Stores_0, oBoon_sprite_Expanded_Fuel_Stores_1, oBoon_sprite_Expanded_Fuel_Stores_2],
 	boon_function : expanded_fuel_stores,
 	max_selections : 3,
-	tiered : true
+	tiered : true,
+	times_selected : 0
 }
 
 // Below here are the unfinished boons
@@ -77,7 +80,8 @@ booster_ability_boon = {
 	sprite_array : [],
 	boon_function : booster_ability,
 	max_selections : 1,
-	tiered : false
+	tiered : false,
+	times_selected : 0
 }
 
 explosive_bullets = " you should "

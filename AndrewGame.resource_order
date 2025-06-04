@@ -19,6 +19,7 @@
     {"name":"StartRoom","order":2,"path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"accelerate","order":3,"path":"scripts/accelerate/accelerate.yy",},
     {"name":"basic_boon_code","order":13,"path":"scripts/basic_boon_code/basic_boon_code.yy",},
+    {"name":"booster_abiliter_player_step_code","order":21,"path":"scripts/booster_abiliter_player_step_code/booster_abiliter_player_step_code.yy",},
     {"name":"booster_ability","order":19,"path":"scripts/booster_ability/booster_ability.yy",},
     {"name":"draw_tooltip","order":12,"path":"scripts/draw_tooltip/draw_tooltip.yy",},
     {"name":"expanded_fuel_stores","order":9,"path":"scripts/expanded_fuel_stores/expanded_fuel_stores.yy",},

@@ -7,5 +7,5 @@ function heavy_hitter(tier){
 	oPlayer.shot_speed = oPlayer.shot_speed * damage_tiers[tier]
 	oPlayer.bullet_damage = oPlayer.bullet_damage * shot_speed_tiers[tier]
 	
-	basic_boon_code()
+	basic_boon_code(global.boon_list.heavy_hitter_boon)
 }

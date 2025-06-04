@@ -57,6 +57,7 @@
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"accelerate","path":"scripts/accelerate/accelerate.yy",},},
     {"id":{"name":"basic_boon_code","path":"scripts/basic_boon_code/basic_boon_code.yy",},},
+    {"id":{"name":"booster_abiliter_player_step_code","path":"scripts/booster_abiliter_player_step_code/booster_abiliter_player_step_code.yy",},},
     {"id":{"name":"booster_ability","path":"scripts/booster_ability/booster_ability.yy",},},
     {"id":{"name":"draw_tooltip","path":"scripts/draw_tooltip/draw_tooltip.yy",},},
     {"id":{"name":"expanded_fuel_stores","path":"scripts/expanded_fuel_stores/expanded_fuel_stores.yy",},},
