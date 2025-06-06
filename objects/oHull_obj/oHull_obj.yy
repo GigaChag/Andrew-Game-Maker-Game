@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_boat_hullthina",
-    "path":"sprites/sprite_boat_hullthina/sprite_boat_hullthina.yy",
+    "name":"boat_hullthina_sprite",
+    "path":"sprites/boat_hullthina_sprite/boat_hullthina_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -43,7 +43,7 @@ heavy_hitter_boon = {
 	boon_title: "Heavy Hitter",
 	description : "Increase shot damage, but decreases shot velocity",
 	sprite_array : [
-		oBoon_sprite_Heavy_Hitter_0, oBoon_sprite_Heavy_Hitter_1, oBoon_sprite_Heavy_Hitter_2],
+		oBoon_Heavy_Hitter_0_sprite, oBoon_Heavy_Hitter_1_sprite, oBoon_Heavy_Hitter_2_sprite],
 	boon_function : heavy_hitter,
 	max_selections : 3,
 	tiered : true,
@@ -54,7 +54,7 @@ nothing_boon_dict = {
 	boon_title : "Nothing",
 	description : "A fresh copy of Jack Shit.. or is it?",
 	sprite_array : [
-		oBoon_sprite_Nothing_0, oBoon_sprite_Nothing_1, oBoon_sprite_Nothing_2],
+		oBoon_Nothing_0_sprite, oBoon_Nothing_1_sprite, oBoon_Nothing_2_sprite],
 	boon_function : nothing_boon,
 	max_selections : 3,
 	tiered : false,
@@ -65,7 +65,7 @@ expanded_fuel_stores_boon = {
 	boon_title : "Expanded Fuel Stores",
 	description : "Increases energy capacity",
 	sprite_array : [
-		oBoon_sprite_Expanded_Fuel_Stores_0, oBoon_sprite_Expanded_Fuel_Stores_1, oBoon_sprite_Expanded_Fuel_Stores_2],
+		oBoon_Expanded_Fuel_Stores_0_sprite, oBoon_Expanded_Fuel_Stores_1_sprite, oBoon_Expanded_Fuel_Stores_2_sprite],
 	boon_function : expanded_fuel_stores,
 	max_selections : 3,
 	tiered : true,

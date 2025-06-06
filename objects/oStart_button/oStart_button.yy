@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_start_button",
-    "path":"sprites/sprite_start_button/sprite_start_button.yy",
+    "name":"start_button_sprite",
+    "path":"sprites/start_button_sprite/start_button_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

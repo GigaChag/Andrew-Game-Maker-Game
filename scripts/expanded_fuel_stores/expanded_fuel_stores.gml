@@ -3,6 +3,5 @@ function expanded_fuel_stores(tier){
 	
 	oPlayer.starting_energy = oPlayer.starting_energy * fuel_tiers[tier]
 	
-	basic_boon_code(global.boon_list.expanded_fuel_stores_boon)
-	
+	basic_boon_code()
 }

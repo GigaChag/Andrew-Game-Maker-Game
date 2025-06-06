@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_turret",
-    "path":"sprites/sprite_turret/sprite_turret.yy",
+    "name":"turret_sprite",
+    "path":"sprites/turret_sprite/turret_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
